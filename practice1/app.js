@@ -1,7 +1,8 @@
-function areaOfCircle(radius){
-    let area = Math.PI * radius * radius;
-    console.log(area);
+function totalMarks(phy,chem,math) {
+    let total = phy + chem + math;
+    return total;
+    
 }
 
-areaOfCircle(10);
-areaOfCircle(20);
+let result = totalMarks(10,10,10);
+console.log(result);
