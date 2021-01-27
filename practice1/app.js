@@ -1,10 +1,7 @@
-function welcomeUser(name, number){
-
-
-    console.log(`Hello ${name}, welcome to our website!`)
-    console.log(`You are visitor number ${number}`)
-
+function areaOfCircle(radius){
+    let area = Math.PI * radius * radius;
+    console.log(area);
 }
 
-welcomeUser('Robert',1)
-welcomeUser('Ernesto',2)
+areaOfCircle(10);
+areaOfCircle(20);
