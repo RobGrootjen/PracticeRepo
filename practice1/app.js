@@ -1,16 +1,11 @@
-function helloWorld(){
-    console.log('hello world')
+function askForName(){
+    let passWord = prompt('What is the password?');
+    if (passWord === 'Lenovo123') {
+        let helpResponse = prompt('Password is right, how can I help you? \n1. Balance.');
+    }else{
+        alert('Password is wrong')
+    }
+    
 }
 
-let heyThere = function(){
-    console.log('Hey there')
-}
-
-let sum =  function (val1,val2) {
-    return val1 + val2;
-}
-
-heyThere();
-
-let result = sum(5,5);
-console.log(result);
+askForName();
