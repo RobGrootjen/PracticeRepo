@@ -1,11 +1,16 @@
-function calculateGrade(grade1,grade2,grade3) {
-    var finalScore = grade1 + grade2 + grade3;
-    return finalScore;
+function helloWorld(){
+    console.log('hello world')
 }
 
-function calculatePercentage(finalScore){
-    var result = finalScore / 300 * 100;
-    console.log(result);
+let heyThere = function(){
+    console.log('Hey there')
 }
 
-calculatePercentage(calculateGrade(75,92,45));
+let sum =  function (val1,val2) {
+    return val1 + val2;
+}
+
+heyThere();
+
+let result = sum(5,5);
+console.log(result);
