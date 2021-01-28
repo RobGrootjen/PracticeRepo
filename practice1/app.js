@@ -1,13 +1,11 @@
-function calculateClass(math,phy,geo){
-    var result = math + phy + geo;
-    return result;
+function calculateGrade(grade1,grade2,grade3) {
+    var finalScore = grade1 + grade2 + grade3;
+    return finalScore;
 }
 
-function calculatePer(result){
-    var percentage = result/300 * 100;
-    console.log(percentage);
+function calculatePercentage(finalScore){
+    var result = finalScore / 300 * 100;
+    console.log(result);
 }
 
-
-
-calculatePer(calculateClass(90,94,85));
+calculatePercentage(calculateGrade(75,92,45));
