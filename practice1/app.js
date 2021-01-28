@@ -1,8 +1,13 @@
-function totalMarks(phy,chem,math) {
-    let total = phy + chem + math;
-    return total;
-    
+function calculateClass(math,phy,geo){
+    var result = math + phy + geo;
+    return result;
 }
 
-let result = totalMarks(10,10,10);
-console.log(result);
+function calculatePer(result){
+    var percentage = result/300 * 100;
+    console.log(percentage);
+}
+
+
+
+calculatePer(calculateClass(90,94,85));
