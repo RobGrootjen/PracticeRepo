@@ -1,4 +1,4 @@
-const hello = () => {
-    console.log("Hello there!");
-}
-hello();
+const hi = () => "Hi there"
+
+
+console.log(hi());
