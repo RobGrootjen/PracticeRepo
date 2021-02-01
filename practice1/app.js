@@ -12,7 +12,7 @@ function askForName(){
             let whoTransfer = prompt('Who would you like to transfer to?')      
         }
     }else{
-        alert('Password is super wrong')
+        alert('Password is wrong')
     }
     
 }
