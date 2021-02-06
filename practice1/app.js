@@ -1,6 +1,6 @@
-const hi = () => {
-    var nameRespone = prompt("Hi what is your name?");
-}
+var obj = {id: 42, name: "Jack"};
 
+let {id = 10, age = 20} = obj;
 
-console.log(hi());
+console.log(id);
+console.log(age);
