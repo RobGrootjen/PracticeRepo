@@ -44,3 +44,37 @@ myFunction2(...args2, 4);
 var dateFields = [1970, 0, 1];
 var date = new Date(...dateFields);
 console.log(date);
+
+
+
+
+var arrz = ["One", "Two", "Five"];
+arrz.splice(2, 0, "Three");
+arrz.splice(3, 0, "Four");
+console.log(arrz);
+
+
+
+
+
+let newArrz = ['Three', 'Four'];
+let arrz2 = ['One', 'Two', ...newArrz, 'Five'];
+console.log(arrz2)
+
+
+
+const obj1 = { foo: 'bar', x: 42};
+const obj2 = { foo: 'baz', y: 5};
+const clonedObj = {...obj1};
+const mergedObj = {...obj2, ...obj1};
+console.log(clonedObj);
+console.log(mergedObj);
+
+
+
+
+const objA = { foo: 'bar', x: 42};
+const objB = { foo: 'baz', y: 5};
+const merg = (...objects) => ({...objects});
+let mergeObjA = merge(objA, objB);
+let mergeObjB = merge({}, obj1, obj2);
