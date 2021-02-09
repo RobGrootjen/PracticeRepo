@@ -8,7 +8,7 @@ console.log(displayPi());
 const area = r => 3.14 * r * r;
 console.log(area(10));
 
-const hello = () => console.log('Hello there!');
+const hello = () => console.log('Hello thereeee!');
 hello();
 
 const hi = () => "Hi there";
